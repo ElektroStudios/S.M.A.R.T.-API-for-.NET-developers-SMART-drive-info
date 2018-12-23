@@ -4,7 +4,9 @@
 
 S.M.A.R.T. Demo is a simple and educative project to illustrate how to retrieve S.M.A.R.T. information from a hard drive using managed code in .NET. The source-code is written in VB.NET.
 
-### Limitations
+The source-code is fully reusable, personalizable and scalable, you can copy it and paste on your own works.
+
+# Limitations
 
 This tool does not pretend to be a professional S.M.A.R.T. information tool. 
 
@@ -14,19 +16,20 @@ For the reason being said, my implementation tries to facilitate this task by pr
 
 Anyways, almost all the vendor-specific RAW values are 32-bit integer values, which is the default kind of value represented in the user-interface of this tool.
 
-### Screenshots:
+# Screenshots:
 
 ![](Preview/Screenshot-1.png)
 
 ![](Preview/Screenshot-2.png)
 
-### Donations
+# Donations
 
 Any code within the namespace "DevCase" are freely distributed as part of "DevCase for .NET Framework" source-code (previously known as "ElektroKit Framework for .NET").
  
 Maybe you would like to consider to buy this powerful set of libraries to support me. You can do loads of things with my APIs for a big amount of diverse thematics, not only related to devices and so.
  
 Here is a link to the purchase page:
-https://codecanyon.net/item/elektrokit-class-library-for-net/19260282
+
+ - https://codecanyon.net/item/elektrokit-class-library-for-net/19260282
 
 Thank you.
