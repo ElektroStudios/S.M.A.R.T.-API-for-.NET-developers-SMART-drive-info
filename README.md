@@ -1,6 +1,6 @@
-# S.M.A.R.T. Demo in .NET
+# S.M.A.R.T. Tool for .NET
 
-![](Solution/S.M.A.R.T.%20Demo\App.ico)
+![](Preview/App.png)
 
 S.M.A.R.T. Demo is a simple and educative project to illustrate how to retrieve S.M.A.R.T. information from a hard drive using managed code in .NET. The source-code is written in VB.NET.
 
@@ -33,3 +33,17 @@ Here is a link to the purchase page:
  - https://codecanyon.net/item/elektrokit-class-library-for-net/19260282
 
 Thank you.
+
+# Honorable Mentions
+
+Credits to people who indirectly helped me to develop this tool:
+
+"TheLegendaryCopyCoder" for illustrating how to retrieve all the related S.M.A.R.T. data through WMI:
+
+ - https://stackoverflow.com/a/14894138/1248295
+ - http://www.know24.net/blog/C+WMI+HDD+SMART+Information.aspx
+
+Reza Aghaei's and Simon Mourier's answers, that solved me a problem to build the visual representation in the way I wanted to in the PropertyGrid's collection editor UI:
+
+ - https://stackoverflow.com/a/53890224/1248295
+ - https://stackoverflow.com/a/53877310/1248295
