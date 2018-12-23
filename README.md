@@ -1,6 +1,6 @@
 # S.M.A.R.T. Demo in .NET
 
-![](Solution/S.M.A.R.T.-Demo\App.ico)
+![](Solution/S.M.A.R.T.%20Demo\App.ico)
 
 S.M.A.R.T. Demo is a simple and educative project to illustrate how to retrieve S.M.A.R.T. information from a hard drive using managed code in .NET. The source-code is written in VB.NET.
 
@@ -18,9 +18,9 @@ Anyways, almost all the vendor-specific RAW values are 32-bit integer values, wh
 
 # Screenshots:
 
-![](Preview/Screenshot-1.png)
+![](Preview/Screenshot%201.png)
 
-![](Preview/Screenshot-2.png)
+![](Preview/Screenshot%202.png)
 
 # Donations
 
