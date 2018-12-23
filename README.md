@@ -1,4 +1,4 @@
-# S.M.A.R.T. Tool for .NET
+# S.M.A.R.T. API for .NET
 
 ![](Preview/App.png)
 
