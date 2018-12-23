@@ -2,7 +2,7 @@
 
 ![](Preview/App.png)
 
-S.M.A.R.T. Demo is a simple and educative project to illustrate how to retrieve S.M.A.R.T. information from a hard drive using managed code in .NET. The source-code is written in VB.NET.
+S.M.A.R.T. API is a simple and educative project to illustrate how to retrieve S.M.A.R.T. information from a hard drive using managed code in .NET. The source-code is written in VB.NET.
 
 The source-code is fully reusable, personalizable and scalable, you can copy it and paste on your own works.
 
