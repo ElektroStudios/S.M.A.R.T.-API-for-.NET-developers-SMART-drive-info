@@ -30,9 +30,9 @@ winforms
 
 ## 👋 Introduction
 
-S.M.A.R.T. API is a class library (dll file) to illustrate how to retrieve S.M.A.R.T. information from a disk drive using managed code. 
+S.M.A.R.T. API is a class library (dll file) that illustrates how to retrieve S.M.A.R.T. information from a disk drive using managed code. 
 
-The source-code is written in VB.NET. The source-code is fully reusable, personalizable and scalable, you can copy it and paste on your own works.
+The source-code is written in VB.NET, and targets .NET Framework 4.8. The source-code is fully reusable, personalizable and scalable, you can copy it and paste on your own works.
 
 The source-code comes with a demonstration through a desktop application that shows the S.M.A.R.T. info of your drives.
 
