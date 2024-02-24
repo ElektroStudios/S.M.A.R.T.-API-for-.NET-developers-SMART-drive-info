@@ -1,4 +1,4 @@
-﻿Any code within the namespace "DevCase" are freely distributed as part of "DevCase for .NET Framework" source-code (previously known as "ElektroKit Framework for .NET").
+﻿Any code within the namespace "DevCase" are freely distributed as part of "DevCase Class Library for .NET developers" source-code.
  
 Maybe you would like to consider to buy this powerful set of libraries to support me. You can do loads of things with my APIs for a big amount of diverse thematics, not only related to devices and so.
 You can do loads of things with my APIs for a big amount of diverse thematics.

@@ -1,4 +1,4 @@
-﻿' This source-code is freely distributed as part of "DevCase for .NET Framework" (previously known as "ElektroKit Framework for .NET").
+﻿' This source-code is freely distributed as part of "DevCase Class Library for .NET developers".
 ' 
 ' Maybe you would like to consider to buy this powerful set of libraries to support me. 
 ' You can do loads of things with my apis for a big amount of diverse thematics.
@@ -16,27 +16,41 @@ Option Infer Off
 
 #End Region
 
-#Region " DriveStorageType "
+#Region " HardDriveInterfaceType "
 
 Namespace DevCase.Core.IO
 
     ''' ----------------------------------------------------------------------------------------------------
     ''' <summary>
-    ''' Specifies the storage type of a drive.
+    ''' Specifies the interface type of a hard drive.
     ''' </summary>
     ''' ----------------------------------------------------------------------------------------------------
-    Public Enum DriveStorageType As Integer
+    Public Enum HardDriveInterfaceType As Integer
 
         ''' <summary>
-        ''' Drive storage is connected within the computer chassis. 
-        ''' Usually the drive is a hard disk drive (HDD) or solid-state drive (SSD).
+        ''' Hard Disk Controller (HDC) interface.
         ''' </summary>
-        InternalStorage
+        HDC
 
         ''' <summary>
-        ''' Drive storage is connected from outside the chassis, usually by USB or eSATA.
+        ''' Integrated Drive Electronics (IDE) interface.
         ''' </summary>
-        ExternalStorage
+        IDE
+
+        ''' <summary>
+        ''' Institute of Electrical and Electronics Engineers (IEEE) 1394 interface.
+        ''' </summary>
+        IEEE1394
+
+        ''' <summary>
+        ''' Small Computer System Interface (SCSI).
+        ''' </summary>
+        SCSI
+
+        ''' <summary>
+        ''' Universal Serial Bus (USB) interface.
+        ''' </summary>
+        USB
 
     End Enum
 

@@ -1,4 +1,4 @@
-﻿' This source-code is freely distributed as part of "DevCase for .NET Framework" (previously known as "ElektroKit Framework for .NET").
+﻿' This source-code is freely distributed as part of "DevCase Class Library for .NET developers".
 ' 
 ' Maybe you would like to consider to buy this powerful set of libraries to support me. 
 ' You can do loads of things with my apis for a big amount of diverse thematics.
@@ -129,7 +129,11 @@ Option Infer Off
 
 #Region " Imports "
 
+Imports System.Collections.Generic
+Imports System.ComponentModel
+Imports System.Diagnostics
 Imports System.IO
+Imports System.Linq
 Imports System.Management
 
 Imports DevCase.Core.IO.Tools
@@ -955,11 +959,9 @@ Namespace DevCase.Core.IO
                 Me.interfaceTypeB = HardDriveInterfaceType.IEEE1394 ' WMI value: "1394"
             End If
 
-            If CStr(Me.win32DiskDrive.GetPropertyValue(NameOf(HardDriveInfo.MediaType))).ToLower().Contains("fixed") Then
-                Me.mediaTypeB = DriveStorageType.InternalStorage
-            Else
-                Me.mediaTypeB = DriveStorageType.ExternalStorage
-            End If
+            Me.mediaTypeB = If(CStr(Me.win32DiskDrive.GetPropertyValue(NameOf(HardDriveInfo.MediaType))).ToLower().Contains("fixed"),
+                DriveStorageType.InternalStorage,
+                DriveStorageType.ExternalStorage)
 
             Me.win32DiskDrive.Dispose()
 

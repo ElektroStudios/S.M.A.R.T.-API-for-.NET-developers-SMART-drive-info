@@ -1,4 +1,4 @@
-﻿' This source-code is freely distributed as part of "DevCase for .NET Framework" (previously known as "ElektroKit Framework for .NET").
+﻿' This source-code is freely distributed as part of "DevCase Class Library for .NET developers".
 ' 
 ' Maybe you would like to consider to buy this powerful set of libraries to support me. 
 ' You can do loads of things with my apis for a big amount of diverse thematics.
@@ -61,6 +61,9 @@ Option Infer Off
 
 #Region " Imports "
 
+Imports System.Collections.ObjectModel
+Imports System.ComponentModel
+Imports System.Diagnostics
 Imports System.Drawing.Design
 Imports System.IO
 Imports System.Management

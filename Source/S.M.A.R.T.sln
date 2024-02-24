@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2050
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "S.M.A.R.T. Demo", "S.M.A.R.T. Demo\S.M.A.R.T. Demo.vbproj", "{9D0B8CA1-69C9-49CB-B9B6-5CE0CCAA126F}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "S.M.A.R.T. API", "S.M.A.R.T. API\S.M.A.R.T. API.vbproj", "{9D0B8CA1-69C9-49CB-B9B6-5CE0CCAA126F}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "S.M.A.R.T. Demo", "S.M.A.R.T. Demo\S.M.A.R.T. Demo.vbproj", "{FD975836-997B-46F1-8259-E272714CBBD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9D0B8CA1-69C9-49CB-B9B6-5CE0CCAA126F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D0B8CA1-69C9-49CB-B9B6-5CE0CCAA126F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D0B8CA1-69C9-49CB-B9B6-5CE0CCAA126F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD975836-997B-46F1-8259-E272714CBBD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD975836-997B-46F1-8259-E272714CBBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD975836-997B-46F1-8259-E272714CBBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD975836-997B-46F1-8259-E272714CBBD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

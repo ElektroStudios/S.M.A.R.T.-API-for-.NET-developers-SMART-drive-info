@@ -9,17 +9,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("S.M.A.R.T. Demo")>
+<Assembly: AssemblyTitle("S.M.A.R.T. API")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("ElektroStudios")>
-<Assembly: AssemblyProduct("S.M.A.R.T. Demo")>
-<Assembly: AssemblyCopyright("Copyright © ElektroStudios 2018")>
+<Assembly: AssemblyProduct("S.M.A.R.T. API")>
+<Assembly: AssemblyCopyright("Copyright © ElektroStudios 2018-2024")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("bac74001-e8dd-411b-aaf5-1e757f593aa7")>
+<Assembly: Guid("bac74001-e8dd-411b-aaf5-1e757f593aa1")>
 
 ' Version information for an assembly consists of the following four values:
 '
