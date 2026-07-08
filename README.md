@@ -135,7 +135,7 @@ This work is distributed for educational purposes and without any profit motive.
 @TheLegendaryCopyCoder for illustrating how to retrieve all the related S.M.A.R.T. data through WMI:
 
  - https://stackoverflow.com/a/14894138/1248295
- - http://www.know24.net/blog/C+WMI+HDD+SMART+Information.aspx
+ - https://web.archive.org/web/20200217234233/http://www.know24.net/blog/C+WMI+HDD+SMART+Information.aspx
 
 ## ⚠️ Disclaimer
 
